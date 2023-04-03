@@ -1,0 +1,122 @@
+ *{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+.header1{
+    height: 5%;
+    width: 100%;
+    background-color: rgba(135, 183, 228, 0.068);
+    display: flex;
+    justify-content: center;
+}
+.header1wrapper{
+    height: auto;
+    width: 80%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.img{
+    width: 40px;
+    height: 35%;
+    /* background-color: rgb(34, 22, 3); */
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    width: 40%;
+    display: flex;
+    /* background-color: red; */
+justify-content: space-between;
+
+}
+.header2{
+    height: 10%;
+    width: 100%;
+    /* background-color: rgba(6, 41, 73, 0.068); */
+    display: flex;
+    justify-content: center;
+}
+.header2wrapper{
+    height: auto;
+    width: 80%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.img2{
+    width: 150px;
+    height: 100%;
+    /* background-color: blueviolet; */
+
+}
+.search{
+    width: 20px;
+    height: 25% ;
+    /* background-color: rgb(66, 27, 27); */
+}
+.navhold{
+    width: 450px;
+    height: 100%;
+    /* background-color: rgb(30, 209, 10); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.down{
+    height: 85%;
+    width:100%;
+   background-image: url("../Cargo/storage.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+.box{
+    width: 25%;
+    height: auto;
+    background-color: whitesmoke;
+    opacity: 60%;
+    border-radius:2% ;
+    /* display: flex; */
+    /* justify-content: flex-start; */
+    /* margin-top: 10%; */
+    margin-left: 5%;
+    padding: 10px 30px;
+    /* margin-bottom: 10%; */
+    
+}
+.red{
+    color: red;
+}
+.button{
+    /* background-color: rgb(21, 255, 0); */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: 83%;
+}
+.enroll{
+    /* width: 50px; */
+    /* height: 20px; */
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+.number{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 10px 30px;
+    cursor: pointer;
+}
